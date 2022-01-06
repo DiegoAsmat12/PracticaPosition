@@ -1,0 +1,39 @@
+h1, .contenedor, .informacion, .sticky{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.header{
+    position: relative;
+    top: 20px;
+} 
+
+h1{
+    position: fixed;
+    height: 40px;
+    top: 0;
+    width: 100%;
+    background-color: green;
+    margin-top: 0px;
+}
+
+.contenedor{
+    margin-top: 90px;
+    position: relative;
+}
+
+.textoArbitriario{
+    position: relative;
+}
+
+.ok{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    top: 20px;
+    text-align: center;
+}
